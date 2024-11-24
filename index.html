@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ContentCraft Studio</title>
+    <!-- Favicon -->
+    <link rel="icon" href="imagen/LOGOCSS.jpg" type="image/jpeg">
+</head>
+<body>
+    <!-- Navegación -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="imagen/LOGOCSS.jpg" alt="Logo de ContentCraft Studio">
+                <h1>ContentCraft Studio</h1>
+            </div>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#quienes-somos">¿Quiénes somos?</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- Sección de Inicio -->
+    <section id="inicio">
+        <h2>Bienvenido a ContentCraft Studio</h2>
+        <p>Somos expertos en marketing digital, desarrollo web y manejo de redes sociales para ayudar a las empresas a crecer en el mundo digital.</p>
+        <video src="imagen/videoccs.mp4" controls width="600"></video>
+        <br>
+        <a href="https://scratch.mit.edu/projects/1100684026" target="_blank">
+            <button>CLICK AQUÍ JUEGO SCRATCH</button>
+        </a>
+    </section>
+
+    <!-- Sección ¿Quiénes somos? -->
+    <section id="quienes-somos">
+        <h2>¿Quiénes somos?</h2>
+        
+        <div class="contenido">
+            <h3>Introducción</h3>
+            <p>ContentCraft Studio (CCS) es una empresa comprometida con el desarrollo de soluciones digitales para empresas comerciales y de servicios.</p>
+        </div>
+        
+        <div class="contenido">
+            <h3>Misión</h3>
+            <p>Proporcionar soluciones innovadoras en marketing digital y desarrollo web para impulsar el crecimiento de nuestros clientes.</p>
+        </div>
+        
+        <div class="contenido">
+            <h3>Visión</h3>
+            <p>Ser líderes en servicios de marketing digital y desarrollo web en la región, reconocidos por nuestra creatividad y calidad.</p>
+        </div>
+        
+        <div class="contenido">
+            <h3>Objetivos</h3>
+            <ul>
+                <li>Ayudar a empresas a mejorar su presencia en línea.</li>
+                <li>Crear campañas publicitarias impactantes en redes sociales.</li>
+                <li>Diseñar páginas web personalizadas y funcionales.</li>
+            </ul>
+        </div>
+
+        <!-- Botón de descarga -->
+        <a href="imagen/presentacion.pptx" download>
+            <button>Descargar presentación</button>
+        </a>
+    </section>
+
+    <!-- Sección de Servicios -->
+    <section id="servicios">
+        <h2>Servicios</h2>
+        <div class="servicio">
+            <h3>Diseño de Video Publicitario</h3>
+            <p>Creación de videos atractivos para promocionar tu negocio en redes sociales y otras plataformas.</p>
+        </div>
+        <div class="servicio">
+            <h3>Creación de Redes Sociales</h3>
+            <p>Configuración y diseño de perfiles optimizados en plataformas como Facebook, Instagram y TikTok.</p>
+        </div>
+        <div class="servicio">
+            <h3>Desarrollo de Páginas Web</h3>
+            <p>Diseño y desarrollo de sitios web personalizados según las necesidades de tu empresa.</p>
+        </div>
+        <div class="servicio">
+            <h3>Gestión de Publicidad Digital</h3>
+            <p>Estrategias de marketing digital para aumentar tu alcance y generar más clientes.</p>
+        </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Contacto: +57 350 209 79 51</p>
+        <p>WhatsApp: +57 350 209 79 51</p>
+        <p>Correo: <a href="mailto:ccsccs0131@gmail.com">ccsccs0131@gmail.com</a></p>
+        <button onclick="window.location.href='https://wa.me/message/PQ7JI4UVD3K7J1'">Enviar mensaje por WhatsApp</button>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 ContentCraft Studio. Todos los derechos reservados.</p>
+    </footer>
+
+    <style>
+        /* Estilo general */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        /* Encabezado */
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+        }
+
+        .logo img {
+            width: 100px;
+            margin-bottom: 10px;
+        }
+
+        header ul {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        header li {
+            margin: 0 15px;
+        }
+
+        header a {
+            color: white;
+            text-decoration: none;
+        }
+
+        header a:hover {
+            text-decoration: underline;
+        }
+
+        /* Secciones */
+        section {
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        #inicio {
+            color: white;
+            background: linear-gradient(90deg, #334ea5, #4a70c3);
+            padding: 60px 20px;
+        }
+
+        #quienes-somos .contenido {
+            margin-bottom: 20px;
+            text-align: left;
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        #quienes-somos h3 {
+            font-size: 1.5em;
+            color: #4c74af;
+        }
+
+        #quienes-somos ul {
+            margin-left: 20px;
+            list-style-type: disc;
+        }
+
+        .servicio {
+            background-color: #f2f2f2;
+            padding: 20px;
+            margin: 10px 0;
+        }
+
+        button {
+            background-color: #4c74af;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #4556a0;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+        }
+    </style>
+</body>
+</html>
